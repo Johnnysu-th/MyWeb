@@ -1,3 +1,7 @@
+*{
+   font-family: 'Alef'; 
+}
+
 .hero-image{
     background-image: url("./images/scotland-1987599_1280.jpg");
     height: 352px;
@@ -9,8 +13,8 @@
     color: whitesmoke;
     top: 280px;
     position: absolute;
-    top: 280px;
+    top: 180px;
     text-align: center;
-    width: 100%;;
-
+    width: 100%;
+    font-size: 4rem;
 }
