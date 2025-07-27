@@ -23,10 +23,29 @@ img{
 }
 .two-column{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:50px;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px; 
+    width: 80%; 
+    margin: auto;
+    margin-top: 40px;
     
 }
 info{
     font-size: 1.25em
+}
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px; 
+    width: 80%; 
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.card{
+    background-color: cornflowerblue;
+}
+.card-text{
+    color:whitesmoke;
+    text-align: center;
 }
